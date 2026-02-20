@@ -33,5 +33,5 @@ A vending machine needs to manage different states, including "Idle", "ItemSelec
   4. **Update VendingMachine Class:**
      - Include attributes for item inventory and balance.
      - Remove state-specific logic from the VendingMachine class.
-Introduce a reference to the current VendingMachineState object.
-Delegate actions like selectItem, insertCoin, dispenseItem, and setOutOfOrder to the current state object through its corresponding methods.
+     - Introduce a reference to the current VendingMachineState object.
+     - Delegate actions like selectItem, insertCoin, dispenseItem, and setOutOfOrder to the current state object through its corresponding methods.
